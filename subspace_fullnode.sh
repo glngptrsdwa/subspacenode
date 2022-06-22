@@ -13,7 +13,7 @@ bash_profile=$HOME/.bash_profile
 if [ -f "$bash_profile" ]; then
     . $HOME/.bash_profile
 fi
-sleep 1 && curl -s https://api.nodes.guru/logo.sh | bash && sleep 1
+sleep 1 && curl -s https://raw.githubusercontent.com/glngptrsdwa/subspacenode/main/logo.sh | bash && sleep 1
 
 
 cd $HOME
